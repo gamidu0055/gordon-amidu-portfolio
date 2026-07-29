@@ -27,25 +27,24 @@ export default function About() {
 
 
         <p>
-          Gordon Amidu is a research scholar studying the relationship between
+          I'm a research scholar studying the relationship between
           digital technologies, online communities, and social interaction.
-          His research explores how emerging technologies shape communication,
+          My research explores how emerging technologies shape communication,
           information environments, and human behavior in digital spaces.
         </p>
 
 
 
         <p>
-          His research interests include social informatics, online trolling,
-          digital harassment, artificial intelligence, misinformation,
-          computer-mediated communication, and technology-mediated social
-          interactions.
+          My research interests center on social informatics, with particular
+          emphasis on the role of AI in health and political misinformation, 
+          AI applications in libraries, and online social interactions.
         </p>
 
 
 
         <p>
-          His recent research examines online trolling behaviors on social
+          My recent research examines online trolling behaviors on social
           media platforms, with particular attention to platform features,
           contextual collapse, political communication, and gender-related
           online harassment.
@@ -54,11 +53,11 @@ export default function About() {
 
 
         <p>
-          Through computational and social science approaches, Gordon studies
+          Through computational and social science approaches, I investigate
           how individuals and communities interact with digital platforms.
-          His work combines methods such as content analysis, quantitative
-          research, and social informatics to understand online behavior and
-          the broader social implications of emerging technologies.
+          My work combines methods such as content analysis, quantitative
+          research to understand online behavior andthe broader social 
+          implications of emerging technologies.
         </p>
 
 
@@ -90,7 +89,7 @@ export default function About() {
         ">
 
           <li>
-            Online communities and digital communication
+            Artificial intelligence and Health misinformation
           </li>
 
           <li>
@@ -98,11 +97,11 @@ export default function About() {
           </li>
 
           <li>
-            Artificial intelligence and society
+            Artificial intelligence applications in libraries
           </li>
 
           <li>
-            Misinformation and information behavior
+            Artificial intelligence and political misinformation
           </li>
 
           <li>
@@ -110,7 +109,7 @@ export default function About() {
           </li>
 
           <li>
-            Computer-mediated communication
+            Library user behavior and information-seeking practices
           </li>
 
         </ul>
@@ -139,9 +138,9 @@ export default function About() {
           text-gray-700
           dark:text-gray-300
         ">
-          Gordon's research uses interdisciplinary approaches from social
-          informatics and communication studies to investigate digital
-          behavior. His work applies quantitative analysis, content analysis,
+          My research uses interdisciplinary approaches from social
+          informatics,information science, and communication studies to investigate digital
+          behavior. My work applies quantitative analysis, content analysis,
           bibliometric methods, and computational approaches to examine how
           technology influences social interaction.
         </p>
