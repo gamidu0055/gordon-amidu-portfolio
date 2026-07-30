@@ -4,6 +4,11 @@ import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
 
 export const metadata = {
+
+  metadataBase: new URL(
+    "https://gordon-amidu-portfolio.vercel.app"
+  ),
+
   title:
     "Gordon Amidu | Research Scholar in Social Informatics and Artificial Intelligence",
 
@@ -34,6 +39,7 @@ export const metadata = {
   creator: "Gordon Amidu",
 
   openGraph: {
+
     title:
       "Gordon Amidu | Research Scholar",
 
@@ -46,8 +52,11 @@ export const metadata = {
       "Gordon Amidu Academic Portfolio",
   },
 
+
   twitter: {
-    card: "summary_large_image",
+
+    card:
+      "summary_large_image",
 
     title:
       "Gordon Amidu | Research Scholar",
@@ -55,6 +64,7 @@ export const metadata = {
     description:
       "Academic portfolio covering AI, social informatics, online communities, and digital communication.",
   },
+
 };
 
 
@@ -65,6 +75,7 @@ export default function RootLayout({
 }) {
 
   return (
+
     <html
       lang="en"
       suppressHydrationWarning
@@ -87,5 +98,6 @@ export default function RootLayout({
       </body>
 
     </html>
+
   );
 }
