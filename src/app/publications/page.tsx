@@ -1,30 +1,44 @@
 import { publications } from "@/data/publications";
 
+export const metadata = {
+  title:
+    "Publications | Gordon Amidu | Academic Research and Scholarly Work",
+
+  description:
+    "Academic publications by Gordon Amidu covering artificial intelligence, digital communication, online communities, misinformation, social informatics, and technology-mediated interactions.",
+};
+
+
 export default function Publications() {
   return (
-    <main className="
-      pt-32
-      px-6
-      max-w-6xl
-      mx-auto
-    ">
+    <main
+      className="
+        pt-32
+        px-6
+        max-w-6xl
+        mx-auto
+      "
+    >
 
-
-      <h1 className="
-        text-5xl
-        font-bold
-      ">
+      <h1
+        className="
+          text-5xl
+          font-bold
+        "
+      >
         Publications
       </h1>
 
 
 
-      <p className="
-        mt-6
-        text-lg
-        text-gray-600
-        dark:text-gray-300
-      ">
+      <p
+        className="
+          mt-6
+          text-lg
+          text-gray-600
+          dark:text-gray-300
+        "
+      >
         Selected peer-reviewed publications and scholarly contributions
         in digital communication, online communities, artificial intelligence,
         misinformation, and social informatics.
@@ -33,10 +47,12 @@ export default function Publications() {
 
 
 
-      <div className="
-        mt-12
-        space-y-10
-      ">
+      <div
+        className="
+          mt-12
+          space-y-10
+        "
+      >
 
 
         {publications.map((publication) => (
@@ -55,29 +71,35 @@ export default function Publications() {
           >
 
 
-            <div className="
-              flex
-              items-center
-              justify-between
-              flex-wrap
-              gap-4
-            ">
+            <div
+              className="
+                flex
+                items-center
+                justify-between
+                flex-wrap
+                gap-4
+              "
+            >
 
 
-              <span className="
-                text-sm
-                font-semibold
-                text-blue-600
-              ">
+              <span
+                className="
+                  text-sm
+                  font-semibold
+                  text-blue-600
+                "
+              >
                 {publication.category}
               </span>
 
 
 
-              <span className="
-                text-sm
-                text-gray-500
-              ">
+              <span
+                className="
+                  text-sm
+                  text-gray-500
+                "
+              >
                 {publication.year}
               </span>
 
@@ -87,34 +109,40 @@ export default function Publications() {
 
 
 
-            <h2 className="
-              mt-5
-              text-2xl
-              font-semibold
-            ">
+            <h2
+              className="
+                mt-5
+                text-2xl
+                font-semibold
+              "
+            >
               {publication.title}
             </h2>
 
 
 
 
-            <p className="
-              mt-4
-              text-gray-700
-              dark:text-gray-300
-            ">
+            <p
+              className="
+                mt-4
+                text-gray-700
+                dark:text-gray-300
+              "
+            >
               {publication.authors}
             </p>
 
 
 
 
-            <p className="
-              mt-3
-              italic
-              text-gray-600
-              dark:text-gray-400
-            ">
+            <p
+              className="
+                mt-3
+                italic
+                text-gray-600
+                dark:text-gray-400
+              "
+            >
               {publication.journal}, {publication.volume}, {publication.pages}.
             </p>
 
