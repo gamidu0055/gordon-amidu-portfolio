@@ -1,31 +1,44 @@
 import { researchAreas } from "@/data/research";
 import ResearchCard from "@/components/ResearchCard";
 
+export const metadata = {
+  title:
+    "Research | Gordon Amidu | AI, Online Trolling, and Social Informatics",
+
+  description:
+    "Research work by Gordon Amidu focusing on artificial intelligence, online trolling, digital communication, misinformation, social informatics, online communities, and technology-mediated interactions.",
+};
+
+
 export default function Research() {
   return (
-    <main className="
-      pt-32
-      px-6
-      max-w-6xl
-      mx-auto
-    ">
+    <main
+      className="
+        pt-32
+        px-6
+        max-w-6xl
+        mx-auto
+      "
+    >
 
-
-      <h1 className="
-        text-5xl
-        font-bold
-      ">
+      <h1
+        className="
+          text-5xl
+          font-bold
+        "
+      >
         Research
       </h1>
 
 
-
-      <p className="
-        mt-6
-        text-lg
-        text-gray-600
-        dark:text-gray-300
-      ">
+      <p
+        className="
+          mt-6
+          text-lg
+          text-gray-600
+          dark:text-gray-300
+        "
+      >
         My research examines the relationship between technology,
         communication, and society, with a focus on how digital platforms
         influence online behavior, information environments, and social
@@ -34,26 +47,26 @@ export default function Research() {
 
 
 
-
       <section className="mt-14">
 
-
-        <h2 className="
-          text-3xl
-          font-bold
-        ">
+        <h2
+          className="
+            text-3xl
+            font-bold
+          "
+        >
           Research Themes
         </h2>
 
 
-
-        <div className="
-          mt-10
-          grid
-          md:grid-cols-2
-          gap-8
-        ">
-
+        <div
+          className="
+            mt-10
+            grid
+            md:grid-cols-2
+            gap-8
+          "
+        >
 
           {researchAreas.map((area) => (
 
@@ -64,9 +77,7 @@ export default function Research() {
 
           ))}
 
-
         </div>
-
 
       </section>
 
@@ -76,22 +87,24 @@ export default function Research() {
 
       <section className="mt-16">
 
-
-        <h2 className="
-          text-3xl
-          font-bold
-        ">
+        <h2
+          className="
+            text-3xl
+            font-bold
+          "
+        >
           Research Approaches
         </h2>
 
 
-
-        <p className="
-          mt-6
-          text-lg
-          text-gray-600
-          dark:text-gray-300
-        ">
+        <p
+          className="
+            mt-6
+            text-lg
+            text-gray-600
+            dark:text-gray-300
+          "
+        >
           My work uses interdisciplinary approaches from social informatics,
           communication studies, and computational social science. I apply
           quantitative methods, content analysis, bibliometric analysis,
@@ -109,24 +122,28 @@ export default function Research() {
       <section className="mt-16">
 
 
-        <h2 className="
-          text-3xl
-          font-bold
-        ">
+        <h2
+          className="
+            text-3xl
+            font-bold
+          "
+        >
           Current Research Directions
         </h2>
 
 
 
-        <ul className="
-          mt-6
-          space-y-3
-          list-disc
-          pl-6
-          text-lg
-          text-gray-600
-          dark:text-gray-300
-        ">
+        <ul
+          className="
+            mt-6
+            space-y-3
+            list-disc
+            pl-6
+            text-lg
+            text-gray-600
+            dark:text-gray-300
+          "
+        >
 
           <li>
             Online trolling, harassment, and toxic communication patterns
