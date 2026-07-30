@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
 
 export const metadata = {
-
   metadataBase: new URL(
     "https://gordon-amidu-portfolio.vercel.app"
   ),
@@ -39,7 +38,6 @@ export const metadata = {
   creator: "Gordon Amidu",
 
   openGraph: {
-
     title:
       "Gordon Amidu | Research Scholar",
 
@@ -52,9 +50,7 @@ export const metadata = {
       "Gordon Amidu Academic Portfolio",
   },
 
-
   twitter: {
-
     card:
       "summary_large_image",
 
@@ -64,7 +60,38 @@ export const metadata = {
     description:
       "Academic portfolio covering AI, social informatics, online communities, and digital communication.",
   },
+};
 
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+
+  name: "Gordon Amidu",
+
+  url:
+    "https://gordon-amidu-portfolio.vercel.app",
+
+  jobTitle:
+    "Research Scholar",
+
+  description:
+    "Researcher focusing on artificial intelligence, social informatics, online communities, digital communication, misinformation, and technology-mediated interactions.",
+
+  knowsAbout: [
+    "Artificial Intelligence",
+    "Social Informatics",
+    "Online Trolling",
+    "Digital Communication",
+    "Online Communities",
+    "Misinformation",
+    "Human Computer Interaction",
+  ],
+
+  sameAs: [
+    "https://orcid.org/0000-0002-3136-4806",
+    "https://www.linkedin.com/in/gordon-a-45502317a"
+  ],
 };
 
 
@@ -82,6 +109,13 @@ export default function RootLayout({
     >
 
       <body>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(personSchema),
+          }}
+        />
 
         <ThemeProvider>
 
